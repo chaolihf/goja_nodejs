@@ -4,9 +4,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/dop251/goja"
-	"github.com/dop251/goja_nodejs/console"
-	"github.com/dop251/goja_nodejs/require"
+	"github.com/chaolihf/goja"
+	"github.com/chaolihf/goja_nodejs/console"
+	"github.com/chaolihf/goja_nodejs/require"
 )
 
 func createVM() *goja.Runtime {

@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	js "github.com/dop251/goja"
+	js "github.com/chaolihf/goja"
 )
 
 func mapFileSystemSourceLoader(files map[string]string) SourceLoader {
